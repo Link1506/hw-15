@@ -19,7 +19,7 @@ public class Main {
         System.out.println(authorThree.equals(authorFour));
 
         Book bookThree = new Book("В поисках утраченного времени", 2024, authorOne);
-        Book bookFour = new Book("Лолита ", 2024, authorOne);
+        Book bookFour = new Book("Лолита", 2024, authorOne);
         System.out.println(bookThree.equals(bookFour));
 
     }
